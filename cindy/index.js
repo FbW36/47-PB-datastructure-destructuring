@@ -33,4 +33,5 @@ const bandInfo = {
 function getBand (){
     
     console.log(`${bandInfo.name} is a ${bandInfo.genre} ${bandInfo.type} from ${bandInfo.nationality}. They have 3 members: ${bandInfo.members} and several Albums like ${bandInfo.albums}`)}
+    
 getBand(bandInfo)
