@@ -30,4 +30,7 @@ const bandInfo = {
     albums: ['Fever to Hell', 'it`s blizz!', 'Show your Bones','Mosquito','MAS'],
     members: ['Karen O', 'Nick Zinner', 'Brian Chase'],
 } 
-console.log(`${bandInfo.name} is a ${bandInfo.genre} ${bandInfo.type} from ${bandInfo.nationality}. They have 3 members: ${bandInfo.members} and several Albums like ${bandInfo.albums}`)
+function getBand (){
+    
+    console.log(`${bandInfo.name} is a ${bandInfo.genre} ${bandInfo.type} from ${bandInfo.nationality}. They have 3 members: ${bandInfo.members} and several Albums like ${bandInfo.albums}`)}
+getBand(bandInfo)
