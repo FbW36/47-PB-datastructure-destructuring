@@ -22,7 +22,7 @@ const costumes = {
 
 const { aycan, aza, marc, pedro } = costumes;
 console.log("costumes :>> ", costumes);
-console.log("aycan :>> ", aycan);
+console.log("aycan,aza,marc,pedro :>> ", aycan,aza,marc,pedro);
 
 // #### 3. Parameters: Object Destructuring
 // * Create an object with band/musician details e.g. name of the band/musician, greatest hit, nationality, genre etc.
