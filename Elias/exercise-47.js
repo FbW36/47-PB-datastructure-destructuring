@@ -14,6 +14,17 @@ const reformation = {
     Anton: "John Knox" 
 }
 
-const {l, j, k} = reformation;
+const {Bill, John, Anton} = reformation;
 
-console.log (`${Bill.l}, ${reformation.j} and ${reformation.k} where three of the great reformers in the Reformation.`)
+console.log (`${Bill}, ${John} and ${Anton} where three of the great reformers in the Reformation.`)
+
+// 3. Parameters: Object Destructuring
+const bandDetail = {
+    band: "Sovereign Grace",
+    nationality: "USA",
+    genre: "Christian",
+}
+
+const {band, nationality, genre} = bandDetail;
+
+console.log(`${band} is a ${genre} band from the ${nationality}!`);
